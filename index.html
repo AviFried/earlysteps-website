@@ -24,7 +24,9 @@
 <meta name="twitter:description" content="Pediatric physical therapy for children ages 0–21. Therapy tailored to your child's unique needs and goals. Call (410) 929-3564.">
 <meta name="twitter:image" content="https://earlystepstherapy.com/images/og-image.png">
 
-<link rel="icon" type="image/png" href="images/logo.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="images/favicon-192.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
 <!-- LocalBusiness structured data for Google -->
 <script type="application/ld+json">
@@ -123,7 +125,7 @@ header{
   display:flex;align-items:center;gap:1.4rem;
 }
 .brand{display:flex;align-items:center;gap:.85rem;text-decoration:none;margin-right:auto;}
-.brand img{height:76px;width:auto;margin:-6px 0;}
+.brand img{height:92px;width:auto;margin:-14px 0;}
 .brand-name{display:flex;flex-direction:column;line-height:1;}
 .brand-top{
   font-family:'Baloo 2',sans-serif;font-weight:800;font-size:1.3rem;
@@ -164,7 +166,7 @@ header{
   .nav-toggle{display:flex;}
 }
 @media (max-width:560px){
-  .brand img{height:60px;margin:-4px 0;}
+  .brand img{height:70px;margin:-8px 0;}
   .brand-top{font-size:1.12rem;}
   .brand-sub{font-size:.66rem;}
   .nav{gap:.8rem;padding:.55rem 1rem;}
@@ -333,6 +335,7 @@ h2{font-size:clamp(1.8rem,3.2vw,2.5rem);line-height:1.15;font-weight:800;margin-
   width:92vw;height:92vw;border-radius:50%;border:8px solid rgba(165,205,57,.16);
 }
 .contact .section-pad{text-align:center;position:relative;z-index:1;}
+.contact-logo{width:132px;margin:0 auto 1.2rem;}
 .contact h2{color:#fff;}
 .contact .shout{
   font-family:'Baloo 2',sans-serif;font-weight:800;color:var(--sprout);
@@ -405,7 +408,7 @@ footer{background:var(--ink);color:#C9AED4;padding:2.2rem 1.5rem;}
 <header>
   <nav class="nav" aria-label="Main">
     <a class="brand" href="#top">
-      <img src="images/logo.png" alt="Early Steps Therapy logo">
+      <img src="images/logo-transparent.png" alt="Early Steps Therapy logo">
       <span class="brand-name">
         <span class="brand-top">Early Steps</span>
         <span class="brand-sub">Therapy</span>
@@ -531,7 +534,7 @@ footer{background:var(--ink);color:#C9AED4;padding:2.2rem 1.5rem;}
   <section id="contact" class="contact">
     <div class="contact-arc deco" aria-hidden="true"></div>
     <div class="section-pad">
-      <span class="steps-mark reveal" aria-hidden="true"><i></i><i></i></span>
+      <img class="contact-logo reveal" src="images/logo-mark-white.png" alt="" aria-hidden="true">
       <p class="shout reveal">We can't wait to see you!</p>
       <h2 class="reveal">Call us to schedule your assessment</h2>
       <p class="lead reveal">Drop us a line — we'll talk through your child's needs and set up your evaluation.</p>
